@@ -1,3 +1,44 @@
-.text-left {
-    text-align: left;
+.d-flex {
+    display: flex;
 }
+
+.bg-black {
+    background-color: #23282d;
+}
+
+.bg-blue {
+  background-color: #4db2ec;
+}
+
+.bg-red {
+  background-color: #ff2d2d;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.box-center {
+    width: 1170px;
+    margin: 0px auto;
+    padding: 0 15px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .section-heading {
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #eee;
+    line-height: 30px;  
+    padding: 0px 15px;
+    margin-bottom: 0px;
+  }
+

@@ -20,18 +20,18 @@
 
   <body>
     <!-- Start:Header -->
-    <div id="header">
+    <div id="header" class="bg-black">
       <div class="box-center">
         <div class="container">
           <a href="#"><img src="./assets/img/logo.png" alt="logo" /></a>
-          <form action="">
+          <form action="q" id="search" >
             <input type="text" name="search" placeholder="Bạn muốn tìm gì?" />
             <button><i class="fas fa-search"></i></button>
           </form>
         </div>
 
         <nav>
-          <ul class="main-menu">
+          <ul class="main-menu d-flex">
             <li><a href="">Trang chủ</a></li>
             <li><a href="">Thời trang</a></li>
             <li><a href="">Đời sống</a></li>
@@ -50,25 +50,32 @@
     <!-- Start:Featured-post -->
     <div id="featured-post">
       <div class="box-center">
-        <h3 class="section-title">Nổi bật</h3>
-        <ul class="container">
+        <h3 class="section-heading bg-black">Nổi bật</h3>
+        <ul class="featured-post-list container">
           <li>
-            <a href="#"><img src="./assets/img/post-1.png" alt="post-1" /></a>
-            <p class="post-item">
+            <a href="#" class="post-thumb"
+              ><img src="./assets/img/post-1.png" alt="post-1"
+            /></a>
+            <a href="#" class="post-title">
               Xu hướng thời trang hè 2020: Những mảnh ghép đáng được chú ý
-            </p>
+            </a>
           </li>
           <li>
-            <a href="#"><img src="./assets/img/post-2.png" alt="post-2" /></a>
-            <p class="post-item">
-              Xu hướng thời trang hè 2020: Những mảnh ghép đáng được chú ý
-            </p>
+            <a href="#" class="post-thumb"
+              ><img src="./assets/img/post-2.png" alt="post-2"
+            /></a>
+            <a href="#" class="post-title">
+              Buổi trình diễn thời trang mùa xuân tại Đại học Michigan đã bắt
+              đầu
+            </a>
           </li>
           <li>
-            <a href="#"><img src="./assets/img/post-3.png" alt="post-3" /></a>
-            <p class="post-item">
-              Xu hướng thời trang hè 2020: Những mảnh ghép đáng được chú ý
-            </p>
+            <a href="#" class="post-thumb"
+              ><img src="./assets/img/post-3.png" alt="post-3"
+            /></a>
+            <a href="#" class="post-title">
+              Bật mí cách mặc đẹp cho người mập trở nên thon gọn
+            </a>
           </li>
         </ul>
       </div>
@@ -79,132 +86,181 @@
     <div id="wp-content">
       <div class="box-center">
         <!-- Start:Content -->
-        <div id="content">
-          <h3 class="section-title">Bài viết mới</h3>
-          <ul class="new-post">
-            <li>
-              <a href="#"
-                ><img src="./assets/img/pic-1.png" alt="new-post-1"
-              /></a>
-              <div class="post-info">
-                <div class="post-title">
-                  Bạn có phải là một người phụ nữ có phong cách?
-                </div>
-                <div class="post-published">
-                  <a href="#" class="post-author">phancuong</a>
-                  <span class="post-date">10/08/2020</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="./assets/img/pic-1.png" alt="new-post-1"
-              /></a>
-              <div class="post-info">
-                <div class="post-title">
-                  Bạn có phải là một người phụ nữ có phong cách?
-                </div>
-                <div class="post-published">
-                  <a href="#" class="post-author">phancuong</a>
-                  <span class="post-date">10/08/2020</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="./assets/img/pic-1.png" alt="new-post-1"
-              /></a>
-              <div class="post-info">
-                <div class="post-title">
-                  Bạn có phải là một người phụ nữ có phong cách?
-                </div>
-                <div class="post-published">
-                  <a href="#" class="post-author">phancuong</a>
-                  <span class="post-date">10/08/2020</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="./assets/img/pic-1.png" alt="new-post-1"
-              /></a>
-              <div class="post-info">
-                <div class="post-title">
-                  Bạn có phải là một người phụ nữ có phong cách?
-                </div>
-                <div class="post-published">
-                  <a href="#" class="post-author">phancuong</a>
-                  <span class="post-date">10/08/2020</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="./assets/img/pic-1.png" alt="new-post-1"
-              /></a>
-              <div class="post-info">
-                <div class="post-title">
-                  Bạn có phải là một người phụ nữ có phong cách?
-                </div>
-                <div class="post-published">
-                  <a href="#" class="post-author">phancuong</a>
-                  <span class="post-date">10/08/2020</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="./assets/img/pic-1.png" alt="new-post-1"
-              /></a>
-              <div class="post-info">
-                <div class="post-title">
-                  Bạn có phải là một người phụ nữ có phong cách?
-                </div>
-                <div class="post-published">
-                  <a href="#" class="post-author">phancuong</a>
-                  <span class="post-date">10/08/2020</span>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <!-- End:Content -->
+        <div class="container">
+          <div id="content">
+            <div class="box-head">
+              <h3 class="section-heading bg-blue">Bài viết mới</h3>
+            </div>
+            <div class="box-body">
+              <ul class="new-post">
+                <li>
+                  <a href="#" class="post-thumb"
+                    ><img src="./assets/img/pic-1.png" alt="new-post-1"
+                  /></a>
+                  <div class="post-info">
+                    <a href="#" class="post-title">
+                      Bạn có phải là một người phụ nữ có phong cách?
+                    </a>
+                    <div class="post-published">
+                      <a href="#" class="post-author">phancuong</a>
+                      <span class="post-date">10/08/2020</span>
+                    </div>
+                    <p class="post-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                      commodo viverra maecenas accumsan lacus vel facilisis.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="post-thumb"
+                    ><img src="./assets/img/pic-2.png" alt="new-post-1"
+                  /></a>
+                  <div class="post-info">
+                    <a href="#" class="post-title">
+                      Cách để bạn luôn tỏa sáng trước đám đông
+                    </a>
+                    <div class="post-published">
+                      <a href="#" class="post-author">phancuong</a>
+                      <span class="post-date">12/08/2020</span>
+                    </div>
+                    <p class="post-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                      commodo viverra maecenas accumsan lacus vel facilisis.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="post-thumb"
+                    ><img src="./assets/img/pic-3.png" alt="new-post-1"
+                  /></a>
+                  <div class="post-info">
+                    <a href="#" class="post-title">
+                      Những kiểu tóc mới là xu hướng của giới trẻ 2020
+                    </a>
+                    <div class="post-published">
+                      <a href="#" class="post-author">phancuong</a>
+                      <span class="post-date">14/06/2020</span>
+                    </div>
+                    <p class="post-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                      commodo viverra maecenas accumsan lacus vel facilisis.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="post-thumb"
+                    ><img src="./assets/img/pic-4.png" alt="new-post-1"
+                  /></a>
+                  <div class="post-info">
+                    <a href="#" class="post-title">
+                      15 địa điểm du lịch nổi tiếng bạn cần đến tại Việt Nam
+                    </a>
+                    <div class="post-published">
+                      <a href="#" class="post-author">phancuong</a>
+                      <span class="post-date">02/04/2020</span>
+                    </div>
+                    <p class="post-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                      commodo viverra maecenas accumsan lacus vel facilisis.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="post-thumb"
+                    ><img src="./assets/img/pic-5.png" alt="new-post-1"
+                  /></a>
+                  <div class="post-info">
+                    <a href="#" class="post-title">
+                      Hãy xách balo lên và đi và trải nghiệm những khoảnh khắc
+                      thú vị
+                    </a>
+                    <div class="post-published">
+                      <a href="#" class="post-author">phancuong</a>
+                      <span class="post-date">16/03/2020</span>
+                    </div>
+                    <p class="post-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                      commodo viverra maecenas accumsan lacus vel facilisis.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="post-thumb"
+                    ><img src="./assets/img/pic-6.png" alt="new-post-1"
+                  /></a>
+                  <div class="post-info">
+                    <a href="#" class="post-title">
+                      Top 10 nữ hoàng DJ nỗi tiếng nhất Las Vegas bạn cần biết
+                    </a>
+                    <div class="post-published">
+                      <a href="#" class="post-author">phancuong</a>
+                      <span class="post-date">10/02/2020</span>
+                    </div>
+                    <p class="post-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                      commodo viverra maecenas accumsan lacus vel facilisis.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End:Content -->
 
-        <!-- Start:Sidebar -->
-        <div id="sidebar">
-          <a href="#"><img src="./assets/img/ads.png" alt="ads" /></a>
-          <div class="top-topic">
-            <h3 class="section-title">Chủ đề quan tâm</h3>
-            <ul class="top-topic-list">
-              <li>
-                <a href="#">Thời trang <span class="num-post">20</span></a>
-              </li>
-              <li>
-                <a href="#">Thời trang <span class="num-post">20</span></a>
-              </li>
-              <li>
-                <a href="#">Thời trang <span class="num-post">20</span></a>
-              </li>
-              <li>
-                <a href="#">Thời trang <span class="num-post">20</span></a>
-              </li>
-              <li>
-                <a href="#">Thời trang <span class="num-post">20</span></a>
-              </li>
-              <li>
-                <a href="#">Thời trang <span class="num-post">20</span></a>
-              </li>
-              <li>
-                <a href="#">Thời trang <span class="num-post">20</span></a>
-              </li>
-              <li>
-                <a href="#">Thời trang <span class="num-post">20</span></a>
-              </li>
-            </ul>
+          <!-- Start:Sidebar -->
+          <div id="sidebar">
+            <a href="#" class="ads"
+              ><img src="./assets/img/ads.png" alt="ads"
+            /></a>
+            <div class="top-topic">
+              <div class="box-head">
+                <h3 class="section-heading bg-red">Chủ đề quan tâm</h3>
+              </div>
+              <div class="box-body">
+                <ul class="top-topic-list">
+                  <li>
+                    <a href="#">Thời trang<span class="num-post">20</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Đời Sống<span class="num-post">30</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Xã Hội<span class="num-post">26</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Bóng đá<span class="num-post">35</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Điện ảnh<span class="num-post">29</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Sự kiện<span class="num-post">15</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Du lịch<span class="num-post">34</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Nội trợ<span class="num-post">45</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
+        <!-- End:Sidebar -->
       </div>
-      <!-- End:Sidebar -->
     </div>
 
     <!-- End:Wp-content -->
@@ -213,17 +269,21 @@
     <div id="footer">
       <div class="box-center">
         <ul class="container">
-          <li class="footer-item">
-            <div class="footer-heading">UNITOP</div>
-            <div class="footer-content">
+          <li class="logo-footer">
+            <div class="footer-head">
+              <h3>UNITOP</h3>
+            </div>
+            <div class="footer-body">
               <a href="#"><img src="./assets/img/logo.png" alt="logo" /></a>
             </div>
           </li>
 
-          <li class="footer-item">
-            <div class="footer-heading">Về chúng tôi</div>
-            <div class="footer-content">
-              <p>
+          <li class="about-us">
+            <div class="footer-head">
+              <h3>Về chúng tôi</h3>
+            </div>
+            <div class="footer-body">
+              <p class="about-us-desc">
                 Unitop.vn là hệ thống đào tạo lập trình web online theo lộ trình
                 từng bước. Hệ thống phát triển từ tháng 6/2017 đến nay đã có gần
                 2.000 người theo học và đạt kết quả tốt.
@@ -234,10 +294,12 @@
             </div>
           </li>
 
-          <li class="footer-item">
-            <div class="footer-heading">Theo dõi</div>
-            <div class="footer-content">
-              <ul class="social-list">
+          <li class="follow-us">
+            <div class="footer-head">
+              <h3>Theo dõi</h3>
+            </div>
+            <div class="footer-body">
+              <ul class="social-list d-flex">
                 <li>
                   <a href="#"><i class="fab fa-facebook-square"></i></a>
                 </li>
@@ -263,7 +325,7 @@
       <div class="box-center">
         <div class="container">
           <p class="copyright">© Unitop.vn - Html Css 21 Ngày</p>
-          <ul class="support">
+          <ul class="footer-menu d-flex">
             <li><a href="#">Bảo mật</a></li>
             <li><a href="#">Quảng cáo</a></li>
             <li><a href="#">Liên hệ</a></li>
